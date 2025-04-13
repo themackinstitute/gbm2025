@@ -1,1 +1,24 @@
+# ode_equations_summary.txt
 
+## Ordinary Differential Equations (ODE) Summary
+
+### GBM Cells (IDH1-Mutant)
+- **Metabolites Tracked:**
+  - Glucose, Lactate
+  - α-Ketoglutarate (aKG)
+  - 2-Hydroxyglutarate (2-HG)
+  - NAD+/NADH
+  - SIRT1 Activity
+- **Key Dynamics:**
+  - IDH1 mutation diverts aKG to 2-HG.
+  - Resveratrol increases SIRT1 via NAD+ boost.
+  - 2-HG suppresses antigen expression via TET inhibition.
+
+### CAR-Macrophages
+- **Tracked Variables:**
+  - Energy Pool (ATP)
+  - NAD+/NADH
+  - SIRT1 Activity
+- **Interactions:**
+  - Resveratrol restores NAD+ and boosts energy.
+  - Energy depletion governs exhaustion state transitions.

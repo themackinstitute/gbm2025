@@ -35,7 +35,7 @@ The manuscript outlines a novel AI-driven, multi-scale in silico modelling frame
 ## 📌 What's Included (Post-Release)
 - Supplementary Table S1 (CSV): ✅ Uploaded.
 - Key model assumptions and pseudocode logic (in `methods.md`).
-- Executable simulation code: 🔒 To be released upon publication.
+- Reproducible codebase: 🚧 Under reconstruction, to be released in phases.
 
 ---
 
@@ -48,5 +48,5 @@ McNab A. (2025). Preclinical Investigation of Resveratrol and CAR-Macrophage Syn
 ---
 
 ## 🤝 Contact
-For questions, collaborations, or contributions:
+For questions, collaborations, or contributions:  
 📧 contact@themackinstitute.org

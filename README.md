@@ -1,19 +1,52 @@
-# GBM2025: AI-Driven Multi-Scale Model of Glioblastoma
+# Preclinical Investigation of Resveratrol and CAR-Macrophage Synergy for IDH1-Mutant Glioblastoma
 
-This repository contains the computational framework described in the preprint:
+An AI-Driven, Multi-Scale Modelling Rationale and Protocol  
+**The Mack Institute | A. McNab**  
+📫 contact@themackinstitute.org  
+🌐 [https://themackinstitute.org](https://themackinstitute.org)
 
-**“Preclinical Investigation of Resveratrol and CAR-Macrophage Synergy for IDH1-Mutant Glioblastoma: An AI-Driven, Multi-Scale Modelling Rationale and Protocol”**  
-*Angus McNab, The Mack Institute, 2025*
+---
 
-## Repository Structure
+## 📄 Overview
+This repository accompanies the preprint:
+> **"Preclinical Investigation of Resveratrol and CAR-Macrophage Synergy for IDH1-Mutant Glioblastoma: An AI-Driven, Multi-Scale Modelling Rationale and Protocol"**  
+> McNab A, The Mack Institute (2025)
 
-- `code/` – Model scripts (ODE, ABM, Reaction-Diffusion, integration logic)
-- `data/` – Public reference data and example inputs
-- `results/` – Simulated outputs (e.g., tumor volumes, synergy plots)
-- `docs/` – Supplementary methods, parameter tables, roadmap, references
+The manuscript outlines a novel AI-driven, multi-scale in silico modelling framework that predicts a **93% reduction in glioblastoma volume** using an unexplored therapeutic combination: **Resveratrol + CAR-Macrophages**. This repository will host simulation parameters, core model logic, and reproducibility support files.
 
-## License
-Distributed under the **CC-BY 4.0** License (see `LICENSE`).
+---
 
-## Citation
-See `docs/citation.txt` (coming soon) or cite the OSF preprint once DOI is assigned.
+## 📁 Repository Structure
+```
+📦gbm2025/
+ ┣ 📄 README.md
+ ┣ 📄 methods.md
+ ┣ 📂 data/                  # Placeholder for input/output examples (post-publication)
+ ┣ 📂 models/                # Code components (to be added)
+ ┃ ┣ 📜 abm_logic_summary.txt
+ ┃ ┣ 📜 ode_equations_summary.txt
+ ┃ ┣ 📜 reaction_diffusion_overview.txt
+ ┣ 📂 supplementary/
+ ┃ ┗ 📜 S1_simulation_parameters.csv
+```
+
+---
+
+## 📌 What's Included (Post-Release)
+- Supplementary Table S1 (CSV): ✅ Uploaded.
+- Key model assumptions and pseudocode logic (in `methods.md`).
+- Executable simulation code: 🔒 To be released upon publication.
+
+---
+
+## 📚 Citation
+Please cite the preprint when referencing this repository:
+```
+McNab A. (2025). Preclinical Investigation of Resveratrol and CAR-Macrophage Synergy for IDH1-Mutant Glioblastoma: An AI-Driven, Multi-Scale Modelling Rationale and Protocol. OSF Preprints. https://doi.org/xxxxxx
+```
+
+---
+
+## 🤝 Contact
+For questions, collaborations, or contributions:
+📧 contact@themackinstitute.org

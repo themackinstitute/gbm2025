@@ -22,7 +22,7 @@ The manuscript outlines a novel AI-driven, multi-scale in silico modelling frame
  ┣ 📄 README.md
  ┣ 📄 methods.md
  ┣ 📂 data/                  # Placeholder for input/output examples (post-publication)
- ┣ 📂 models/                # Code components (to be added)
+ ┣ 📂 code/                # Code components (to be added)
  ┃ ┣ 📜 abm_logic_summary.txt
  ┃ ┣ 📜 ode_equations_summary.txt
  ┃ ┣ 📜 reaction_diffusion_overview.txt

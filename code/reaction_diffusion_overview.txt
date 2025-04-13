@@ -1,1 +1,24 @@
+# reaction_diffusion_overview.txt
 
+## Reaction-Diffusion (RD) Model Overview
+
+### Diffusing Species
+- Oxygen (O2)
+- Glucose
+- Lactate
+- Resveratrol (free and exosomal)
+- 2-HG
+- Cytokines: TNF-α, IL-12, IL-10, TGF-β
+
+### Governing Equation
+- $$ \frac{\partial C}{\partial t} = D \nabla^2 C + R $$
+  - `C`: Concentration
+  - `D`: Diffusion coefficient (tissue-adjusted)
+  - `R`: Reaction term (secretion, decay, uptake)
+
+### Key Features
+- **Diffusion:** Adjusted for ECM tortuosity (~0.25 baseline)
+- **Exosome Uptake:** Modeled as stochastic absorption events
+- **pH-Sensitive Release:** Resveratrol release rate depends on local acidity (tumour pH ~6.5)
+- **Cytokine Dynamics:** Secreted by macrophages, degraded over time
+- **Field Coupling:** RD fields updated each timestep; values used by ABM/ODE agents

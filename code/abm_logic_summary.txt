@@ -1,1 +1,22 @@
+# abm_logic_summary.txt
+
+## Agent-Based Model (ABM) Logic Summary
+Platform: CompuCell3D (v4.2.5)
+
+### Cell Types
+- IDH1-Mutant GBM cells
+- IDH1-Wildtype GBM cells
+- GBM-Resistant subpopulation
+- CAR-Macrophages (CAR-M)
+- Resident Macrophages (M0 → M1/M2)
+
+### Core Behaviours
+- **Proliferation:** Triggered by local oxygen, nutrient availability, and cell age.
+- **Apoptosis:** Driven by metabolic stress, 2-HG, ROS, or CAR-M engagement.
+- **Migration:** Stochastic random walk; CAR-Ms biased by GBM antigen gradients.
+- **Phagocytosis:** CAR-M can kill GBM cells (up to 5 kills) if antigen expression > threshold.
+- **Energy Pool:** Tracks CAR-M fatigue; phagocytosis/cytokine secretion depletes ATP/NAD+.
+- **Exhaustion:** If energy <10%, CAR-M enters inactive state temporarily.
+- **Polarisation:** Resident M0 macrophages polarise to M1 or M2 based on cytokine levels.
+- **Antigen Modulation:** GBM antigen levels (IL13Ra2/EGFR) depend on internal 2-HG and SIRT1 activity.
 

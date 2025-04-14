@@ -51,7 +51,8 @@ The manuscript describes a multi-scale simulation framework combining **Agent-Ba
 ## 📚 Citation
 Please cite the preprint when referencing this repository:
 ```bibtex
-McNab A. (2025). Preclinical Investigation of Resveratrol and CAR-Macrophage Synergy for IDH1-Mutant Glioblastoma: An AI-Driven, Multi-Scale Modelling Rationale and Protocol. OSF Preprints. https://doi.org/xxxxxx
+McNab A. (2025). Preclinical Investigation of Resveratrol and CAR-Macrophage Synergy for IDH1-Mutant Glioblastoma: An AI-Driven, Multi-Scale Modelling Rationale and Protocol. OSF Preprints. (https://doi.org/10.31219/osf.io/eyaf2
+)
 ```
 
 ---
